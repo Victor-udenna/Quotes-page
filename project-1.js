@@ -71,7 +71,6 @@ let quotes = [{
     quote: `"Get busy living or get busy dying"`,
     person: `Stephen King`,
   },
-  {},
   {
     quote: `"Real integrity is doing the right thing, knowing that nobody's going to know whether you did it or not"`,
     person: `Oprah Winfrey`,
@@ -89,4 +88,3 @@ btn.addEventListener("click", function () {
   person.innerText = quotes[random].person;
 });
 
-console.log(quotes);

@@ -4,9 +4,16 @@ let btn = document.querySelector("#new-quote");
 let quote = document.querySelector(".quote");
 let person = document.querySelector(".person");
 
+quote.append('"I do the very best I know how, the very best I can; and i mean to keep doing so until the end."');
+person.append('Abraham lincoln');
+
 let quotes = [{
     quote: `"The best way to find yourself is to lose yourself in the service of others"`,
     person: `Mahata Gandi`,
+  },
+  {
+    quote: `"I do the very best I know how, the very best I can; and i mean to keep doing so until the end."`,
+    person: `Abraham lincoln`
   },
   {
     quote: `"Success is to be measured not so much by the position that one has reached in life as by the obstacles which he has overcome while trying to succeed"`,

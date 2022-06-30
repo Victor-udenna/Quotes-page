@@ -4,8 +4,7 @@ let btn = document.querySelector("#new-quote");
 let quote = document.querySelector(".quote");
 let person = document.querySelector(".person");
 
-let quotes = [
-  {
+let quotes = [{
     quote: `"The best way to find yourself is to lose yourself in the service of others"`,
     person: `Mahata Gandi`,
   },

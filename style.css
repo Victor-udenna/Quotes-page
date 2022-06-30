@@ -67,6 +67,11 @@ line-height: 1.5;
     border: none;
 }
 
+.button-area button:hover{
+    color:   #262626;
+    background-color: rgb(255, 255, 255);
+}
+
 .wire{
     color: rgb(236, 255, 113);
     padding-top: 20px;

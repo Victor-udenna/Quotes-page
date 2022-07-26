@@ -3,10 +3,13 @@
 let btn = document.querySelector("#new-quote");
 let quote = document.querySelector(".quote");
 let person = document.querySelector(".person");
+// called quotes container, button and person from the html
 
 quote.append('"I do the very best I know how, the very best I can; and i mean to keep doing so until the end."');
 person.append('Abraham lincoln');
+// Added default quotes.
 
+// add array of object that contains diffrent quotes and persons
 let quotes = [{
     quote: `"The best way to find yourself is to lose yourself in the service of others"`,
     person: `Mahata Gandi`,
@@ -81,10 +84,14 @@ let quotes = [{
   },
 ];
 
+// button to chnge quotes
 btn.addEventListener("click", function () {
   let random = Math.floor(Math.random() * quotes.length);
-
+// selects quotes randomly
   quote.innerText = quotes[random].quote;
+  // input the random quote generated to the html
   person.innerText = quotes[random].person;
+  // input the random person generated to the html
+
 });
 
